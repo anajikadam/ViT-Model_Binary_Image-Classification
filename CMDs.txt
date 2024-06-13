@@ -1,0 +1,30 @@
+image_directory_path = "Lab-Pages-data"
+# Lab-Pages-data
+#   -->train
+#     -->class_0 : 400 .png image
+#     -->class_1 : 470 .png image
+#   -->test
+#     -->class_0 : 9 .png image
+#     -->class_1 : 9 .png image
+#   -->valid
+#     -->class_0 : 60 .png image
+#     -->class_1 : 60 .png image
+
+C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe -m venv VenvViT
+
+VenvViT\Scripts\activate
+(VenvViT) G:\Projects\LAB-Page-identification_ViT>python
+Python 3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+
+pip install transformers
+pip install Pillow
+
+
+pip freeze > requirements.txt
+pip install -r requirements
+
+
+
